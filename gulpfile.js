@@ -123,12 +123,14 @@ gulp.task('clean', function () {
 });
 
 gulp.task('set_example_1', function(){example = "example1";});
+gulp.task('set_example_with_map', function(){example = "example_with_map";});
 
 /**
  * run Examples START
  */
 gulp.task('default',  ['set_example_1', 'scripts_dev', 'copy_index', 'vendorBOWER', 'watch_dev', 'connect']);
 gulp.task('example1', ['set_example_1', 'scripts_dev', 'copy_index', 'vendorBOWER', 'watch_dev', 'connect']);
+gulp.task('example_with_map', ['set_example_with_map', 'scripts_dev', 'copy_index', 'vendorBOWER', 'watch_dev', 'connect']);
 
 /**
  * RUN SCRIPT TO MINIFY LIBRARY

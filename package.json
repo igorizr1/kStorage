@@ -1,6 +1,6 @@
 {
   "name": "angular-kstorage",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "angular kStorage is a wrapper for localStorage and sessionStorage",
   "main": "gulpfile.js",
   "directories": {
